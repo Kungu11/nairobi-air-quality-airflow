@@ -1,0 +1,37 @@
+.env
+logs/
+__pycache__/
+*.pyc
+.venv/
+airflow.db
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+secrets/
+connections*.json
+*api_key*
+
+# Airflow runtime data (retain required directory)
+logs/*
+!logs/.gitkeep
+config/*
+!config/.gitkeep
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
+
+# Local database files and dumps
+*.db
+*.sqlite*
+*.dump
