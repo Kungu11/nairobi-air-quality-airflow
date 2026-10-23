@@ -1,6 +1,6 @@
 # Nairobi Air Quality Batch Pipeline with Apache Airflow
 
-**Author:** David Kungu · GitHub: Kungu11 · LuxDevHQ Cohort 7
+**Author:** David Kungu · GitHub: Kungu11 · 
 **Stack:** Airflow 2.10.4 / Python 3.12 / Docker Compose / PostgreSQL 16 / OpenAQ v3
 
 A scheduled batch pipeline that discovers air-quality locations within 25 km of
