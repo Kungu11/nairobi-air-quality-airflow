@@ -145,7 +145,7 @@ def _openaq_request(path: str, params: dict | None = None) -> dict:
             ),
         )
     },
-    tags=["luxdevhq", "air-quality", "openaq"],
+    tags=["air-quality", "openaq"],
 )
 def nairobi_air_quality():
 
